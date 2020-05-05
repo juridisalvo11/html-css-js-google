@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.header-row, .footer-bottom {
+  display: flex;
+}
+
+header {
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+}
+
+.header-left {
+  width: 50%;
+}
+
+.header-right {
+  width: 50%;
+  text-align: right;
+}
+
+.dropbox-icon {
+  font-size: 20px;
+  color: darkslategrey;
+}
+
+.dropbox-icon:hover {
+  color: black;
+}
+
+.header-left a, .header-right a, .footer-left a, .footer-right a  {
+  color: rgb(0, 0, 0, 0.7);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.header-left a:hover, .header-right a:hover, .footer-left a:hover, .footer-right a:hover {
+  text-decoration: underline;
+}
+
+.header-left li, .header-right li, .footer-left li, .footer-right li  {
+  display: inline-block;
+}
+
+.login {
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+  background-color: blue;
+}
+button {
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.main-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 60%;
+}
+
+.input-box {
+  width: 40%;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 20px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  width: 88%;
+}
+
+.input-box .fa-microphone {
+  cursor: pointer;
+}
+
+.buttons-box {
+  margin-top: 20px;
+}
+
+.buttons-box button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-box {
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.footer-top {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  color: rgba(0,0,0,.54);
+}
+
+.footer-bottom, .footer-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-right {
+  width: 50%;
+  text-align: right;
+}
+
+.footer-left a, .footer-right a {
+  color: rgba(0,0,0,.54);
+}
