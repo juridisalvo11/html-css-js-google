@@ -38,7 +38,7 @@ header {
 
 .dropbox-icon {
   font-size: 20px;
-  color: darkslategrey;
+  color: rgb(150, 150, 150);
   vertical-align: middle;
 }
 
@@ -47,6 +47,8 @@ header {
 }
 
 .dropbox {
+    color: black;
+    font-weight: 200;
     text-align: left;
     width: 320px;
     height: 450px;
@@ -103,7 +105,7 @@ header {
   color: white;
   font-weight: bold;
   padding: 7px;
-  background-color: blue;
+  background-color: #4285f4;
 }
 button {
   cursor: pointer;
@@ -160,6 +162,50 @@ input {
 
 footer {
   width: 100%;
+}
+
+.privacy-box {
+    vertical-align: middle;
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+.privacy-left {
+    font-size: 20px;
+    width: 50%;
+    float: left;
+}
+
+.privacy-left img {
+    width: 30px;
+}
+
+.privacy-left span {
+    vertical-align: super;
+}
+
+.privacy-right {
+    text-align: right;
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.privacy-right a {
+    font-size: 12px;
+    vertical-align: middle;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.privacy-right button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #4285f4;
 }
 
 .footer-box {
